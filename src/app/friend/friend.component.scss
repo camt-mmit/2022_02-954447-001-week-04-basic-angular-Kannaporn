@@ -1,0 +1,18 @@
+table,th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: auto;
+    text-align: center;
+    height: 50px;
+    margin:auto
+}
+a {
+    color: blue;
+    text-decoration: none;
+    border: 1px solid blue;
+    border-radius: 8px;
+    margin: 5px;
+    }
+    a.st-active {
+    background-color: silver;
+    }

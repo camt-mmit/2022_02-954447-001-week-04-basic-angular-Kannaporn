@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    }
+
+.links {
+    display: inline-flex;
+    flex-direction: row;
+
+    & > a {
+        display: block;
+        border: 1px solid currentColor;
+        border-radius: 10px;
+        padding: 1px;
+
+        & > :hover {
+            background-color: burlywood;
+        }
+    }
+
+}
